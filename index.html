@@ -1,0 +1,31 @@
+<style>
+    * {
+        font-size: 18px;
+    }
+    #input {
+        width: 100%;
+        height: 400px;
+    }
+    #render {
+        width: 200px;
+        height: 40px;
+        clear: both;
+        float: right;
+        margin: 5px 0;
+    }
+</style>
+
+<textarea id="input"></textarea>
+<br />
+<button id="render" onclick="doRender();">计算结果</button>
+<br />
+结果: <span id="result"></span>
+
+<script>
+    document.getElementById("input").focus();
+    function doRender() {
+        var input = document.getElementById("input").value;
+        document.getElementById("result").innerHTML = eval(input);
+    }
+</script>
+<div id="scripts"></div>
