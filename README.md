@@ -6,4 +6,4 @@
 
 ![截图](screen.png)
 
-![截图](screen2.png)
+![截图](screen2.jpeg)
