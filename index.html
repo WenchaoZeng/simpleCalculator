@@ -34,6 +34,7 @@
     document.getElementById("input").focus();
     function doRender() {
         var input = document.getElementById("input").value;
+        input = input.replace('×', '*').replace('÷', '/');
         document.getElementById("result").innerHTML = eval(input);
     }
 </script>
