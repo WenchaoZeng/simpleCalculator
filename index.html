@@ -35,6 +35,11 @@
     function doRender() {
         var input = document.getElementById("input").value;
         input = input.replace('×', '*').replace('÷', '/');
-        document.getElementById("result").innerHTML = eval(input);
+        var expressions = input.split('=');
+        var result = [];
+        expressions.forEach(function(expression) {
+            result.push(eval(expression));
+        });
+        document.getElementById("result").innerHTML = result.join(', ');
     }
 </script>
