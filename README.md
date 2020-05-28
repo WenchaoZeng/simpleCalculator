@@ -1,6 +1,6 @@
 # 简单但非常便利的计算器, 通吃任何浏览器 (PC, 手机, 等等..)
 
-[点击访问](https://cdn.staticaly.com/gh/WenchaoZeng/simpleCalculator/e8ca774/index.html)
+[点击访问](http://zwc.name/calculator.html)
 
 截图:
 
